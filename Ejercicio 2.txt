@@ -1,0 +1,45 @@
+﻿FLAPPY BIRD
+personaje: pajaro amarillo
+reglas: Si choca con una en vez de pasar reinicia contador y velocidad
+objetivo: pasar entre dos tuberías a diferentes alturas
+niveles: por cada tubería pasada un punto y aumenta la velocidad del pájaro.
+
+
+
+
+abstracción: Es un juego normalmente jugado en dispositivos móviles que se trata de con un pájaro que sube y baja por toques de pantalla pase por unas tuberías que se van acercando, tiene huecos las tuberías en diferentes alturas cada nivel. Si chocas o te caes vuelves al inicio sin puntos.
+
+
+el pájaro solo se mueve si tocas la pantalla (Si presión pantalla p = +1. por el contrario -1).No se mueve en el eje x solo se mueve en eje y. El fondo se mueve en el eje x.
+Los obstáculos en x e y. Cada vez que superas obstáculo aumenta la velocidad (Si pasa velocidad +1, contador +1. Por el contrario -1). Si choca vuelve al estado original.
+ 
+DIAGRAMA DEL PÁJARO
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIAGRAMA DEL FONDO
+  
+
+
+
+Para probar:
+* Si al chocar reinicia el nivel.
+* SI al caer reinicia el nivel.
+* Si pasa objetivo aumenta velocidad.
